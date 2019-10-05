@@ -41,3 +41,33 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1
+    uniqueID: 162345327
+    locked: 0
+  - name: 2
+    uniqueID: 551334657
+    locked: 0
+  - name: 3
+    uniqueID: 889596427
+    locked: 0
+  - name: 4
+    uniqueID: 2914218521
+    locked: 0
+  - name: 5
+    uniqueID: 19022911
+    locked: 0
+  - name: 6
+    uniqueID: 700813347
+    locked: 0
+  - name: 7
+    uniqueID: 729834277
+    locked: 0
+  - name: 8
+    uniqueID: 933999661
+    locked: 0
+  - name: 9
+    uniqueID: 939450707
+    locked: 0
+  - name: Knight
+    uniqueID: 2171057849
+    locked: 0
