@@ -4,13 +4,39 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+   public float spawnDelay = 5f;
 
-    
-    // Start is called before the first frame update
-    
-    // Update is called once per frame
-    void Update()
-    {
+   public GameObject Blocks;
+
+   public Transform[] spawnPoints;
+   float nextTimeToSpawn = 1f;
+
+   float countDownTimer = 3f;
+
+   void Update ()
+   {
+      if(countDownTimer <= 0f)
+      {
+          SpawnBlock();
+          countDownTimer = 3f;
+      }else
+      {
+          countDownTimer -= Time.deltaTime;
+      }
+
+     /*if(nextTimeToSpawn <= Time.time)
+     {
+         SpawnBlock();
+         nextTimeToSpawn = Time.time + spawnDelay;
+     }*/
+   }
+
+   void SpawnBlock(){
+
+       int randomIndex = Random.Range(0, spawnPoints.Length);
+       Transform spawnPoint = spawnPoints[randomIndex];
+
         
-    }
+       Instantiate(Blocks, spawnPoint.position, spawnPoint.rotation);
+   }
 }
