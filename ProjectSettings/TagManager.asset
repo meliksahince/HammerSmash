@@ -71,3 +71,6 @@ TagManager:
   - name: Knight
     uniqueID: 2171057849
     locked: 0
+  - name: Axe
+    uniqueID: 690928729
+    locked: 0

@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
 
-    public GameObject spawnerPrefab;
-     float spawnerIndex = -0.9f;
+    [SerializeField] GameObject spawnerPrefab;
+    float spawnerIndex = -0.9f;
 
 
     // Start is called before the first frame update
