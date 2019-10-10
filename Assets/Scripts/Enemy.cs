@@ -37,4 +37,18 @@ public class Enemy : MonoBehaviour
         Vector2 forward = new Vector2(transform.right.x,transform.right.y);
         rb.MovePosition (rb.position + forward * Time.fixedDeltaTime * speed); 
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+
+            case "Knight":
+                Destroy(GameObject.FindGameObjectWithTag("Knight"));
+                break;
+            case "Weapon":
+                Destroy(gameObject);
+                break;
+        }
+    }
 }
