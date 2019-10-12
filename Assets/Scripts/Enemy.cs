@@ -6,14 +6,15 @@ public class Enemy : MonoBehaviour
 {
     public Rigidbody2D rb;
 
-    public GameObject blocks;
+    //  public GameObject blocks;
+    
 
-    public float minSpeed = 0.2f;
-    public float maxSpeed = 1f;
+    float minSpeed = 1f;
+    float maxSpeed = 10f;
 
-    float speed = 0.3f;
+    float speed;
 
-    float hue;
+    //float hue; //renk
 
     void Start()
     {
@@ -32,9 +33,9 @@ public class Enemy : MonoBehaviour
         blocks.GetComponent<SpriteRenderer>().color = Color.HSVToRGB(hue,0.5f,0.9f);
     }*/
     
-    void FixedUpdate()
+    void Update()
     {
-        Vector2 forward = new Vector2(transform.right.x,transform.right.y);
+        Vector2 forward = new Vector2(transform.right.x,0);
         rb.MovePosition (rb.position + forward * Time.fixedDeltaTime * speed); 
     }
 

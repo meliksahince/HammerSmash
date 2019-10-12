@@ -9,26 +9,27 @@ public class EnemySpawner : MonoBehaviour
    public GameObject Blocks;
 
    public Transform[] spawnPoints;
-   float nextTimeToSpawn = 1f;
+   float nextTimeToSpawn = 3f;
 
-   float countDownTimer = 3f;
+  // float countDownTimer = 2f;
 
    void Update ()
    {
-      if(countDownTimer <= 0f)
+      /*if(countDownTimer <= 0f)
       {
           SpawnBlock();
           countDownTimer = 3f;
+
       }else
       {
           countDownTimer -= Time.deltaTime;
-      }
+      }*/
 
-     /*if(nextTimeToSpawn <= Time.time)
+     if(nextTimeToSpawn <= Time.time)
      {
          SpawnBlock();
          nextTimeToSpawn = Time.time + spawnDelay;
-     }*/
+     }
    }
 
    void SpawnBlock(){
