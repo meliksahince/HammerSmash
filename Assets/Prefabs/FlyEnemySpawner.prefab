@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8971416504168066576}
-  - component: {fileID: 6360300013948259162}
+  - component: {fileID: -7269584054635378762}
   m_Layer: 0
-  m_Name: EnemySpawner
+  m_Name: FlyEnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6360300013948259162
+--- !u!114 &-7269584054635378762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,13 +41,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5482779202284933283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 366d55806fca7ce418ad300b4e5555f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 89b144fb1a759a04494ab1847c2ebf37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnDelay: 0.3
-  Zombie: {fileID: 8513771195836964140, guid: 674d678628d6e174c98f4933d627ec29, type: 3}
+  spawnDelay: 5
+  Alien: {fileID: 5769363053921327346, guid: dd9ff52f3abd28f48809f2bc48724fcf, type: 3}
   spawnPoints:
-  - {fileID: 8226975011907755192}
+  - {fileID: 0}
 --- !u!1 &7500010866928413962
 GameObject:
   m_ObjectHideFlags: 0

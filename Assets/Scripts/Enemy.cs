@@ -48,8 +48,10 @@ public class Enemy : MonoBehaviour
                 Destroy(GameObject.FindGameObjectWithTag("Knight"));
                 break;
             case "Weapon":
+                Debug.Log("Değmedi");
                 Destroy(gameObject);
                 break;
+            
         }
     }
 }

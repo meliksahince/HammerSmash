@@ -6,7 +6,7 @@ public class EnemySpawner : MonoBehaviour
 {
    public float spawnDelay = 5f;
 
-   public GameObject Blocks;
+   public GameObject Zombie;
 
    public Transform[] spawnPoints;
    float nextTimeToSpawn = 3f;
@@ -27,17 +27,16 @@ public class EnemySpawner : MonoBehaviour
 
      if(nextTimeToSpawn <= Time.time)
      {
-         SpawnBlock();
+         SpawnEnemy();
          nextTimeToSpawn = Time.time + spawnDelay;
      }
    }
 
-   void SpawnBlock(){
+   void SpawnEnemy(){
 
        int randomIndex = Random.Range(0, spawnPoints.Length);
        Transform spawnPoint = spawnPoints[randomIndex];
 
-        
-       Instantiate(Blocks, spawnPoint.position, spawnPoint.rotation);
-   }
+       Instantiate(Zombie, spawnPoint.position, spawnPoint.rotation);
+    }
 }
