@@ -33,6 +33,9 @@ public class FlyEnemy : MonoBehaviour
                 Debug.Log("değdi");
                 Destroy(gameObject);
                 break;
+            case "Destroyer":
+                Destroy(gameObject);
+                break;
 
         }
     }

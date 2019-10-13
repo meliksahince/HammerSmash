@@ -53,7 +53,10 @@ public class Enemy : MonoBehaviour
                 Debug.Log("Değmedi");
                 Destroy(gameObject);
                 break;
-            
+            case "Destroyer":
+                Destroy(gameObject);
+                break;
+
         }
     }
 
