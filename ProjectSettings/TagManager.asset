@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Weapon
   - Knight
+  - WeaponBack
+  - enemybat
   layers:
   - Default
   - TransparentFX
@@ -76,4 +78,7 @@ TagManager:
     locked: 0
   - name: Axe
     uniqueID: 690928729
+    locked: 0
+  - name: UI
+    uniqueID: 2928082045
     locked: 0

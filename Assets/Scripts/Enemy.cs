@@ -45,7 +45,9 @@ public class Enemy : MonoBehaviour
         {
 
             case "Knight":
-                Destroy(GameObject.FindGameObjectWithTag("Knight"));
+                Debug.Log("adamadegdi");
+                //Destroy(GameObject.FindGameObjectWithTag("Knight"));
+                DeadCheck();
                 break;
             case "Weapon":
                 Debug.Log("Değmedi");
@@ -53,5 +55,10 @@ public class Enemy : MonoBehaviour
                 break;
             
         }
+    }
+
+    public void DeadCheck(){
+      
+         GameObject.Find("GameManager").GetComponent<GameManager>().GameOver();
     }
 }
