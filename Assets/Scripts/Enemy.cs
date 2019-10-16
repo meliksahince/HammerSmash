@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     float maxSpeed = 10f;
 
     float speed;
+    
 
     //float hue; //renk
 
