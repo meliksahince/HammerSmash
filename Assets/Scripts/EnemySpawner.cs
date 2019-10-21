@@ -39,4 +39,6 @@ public class EnemySpawner : MonoBehaviour
 
        Instantiate(Zombie, spawnPoint.position, spawnPoint.rotation);
     }
+
+    
 }

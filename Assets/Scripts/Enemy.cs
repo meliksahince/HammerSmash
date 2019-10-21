@@ -52,6 +52,8 @@ public class Enemy : MonoBehaviour
                 break;
             case "Weapon":
                 Debug.Log("Değmedi");
+                AddScore();
+
                 Destroy(gameObject);
                 break;
             case "Destroyer":
@@ -59,6 +61,10 @@ public class Enemy : MonoBehaviour
                 break;
 
         }
+    }
+
+    void AddScore(){
+        GameObject.Find("GameManager").GetComponent<ScoreManager>().addScore(1);
     }
 
     public void DeadCheck(){
