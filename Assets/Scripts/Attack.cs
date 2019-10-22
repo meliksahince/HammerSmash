@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Attack : MonoBehaviour
 {
@@ -9,16 +10,16 @@ public class Attack : MonoBehaviour
     void Start()
     {
         anim.GetComponent<Animator>();
-        
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            anim.SetTrigger("isClicked");
-        }
+        
+    }
+
+    public void CharacterAttack()
+    {
+        anim.SetTrigger("isClicked");
     }
 }

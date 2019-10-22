@@ -47,13 +47,12 @@ public class Enemy : MonoBehaviour
 
             case "Knight":
                 Debug.Log("adamadegdi");
-                //Destroy(GameObject.FindGameObjectWithTag("Knight"));
+                Destroy(GameObject.FindGameObjectWithTag("Knight"));
                 DeadCheck();
                 break;
             case "Weapon":
                 Debug.Log("Değmedi");
                 AddScore();
-
                 Destroy(gameObject);
                 break;
             case "Destroyer":

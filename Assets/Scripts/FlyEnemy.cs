@@ -29,7 +29,7 @@ public class FlyEnemy : MonoBehaviour
             case "Knight":
                 Destroy(GameObject.FindGameObjectWithTag("Knight"));
                 break;
-            case "WeaponBack":
+            case "Weapon":
                 Debug.Log("değdi");
                 Destroy(gameObject);
                 break;
