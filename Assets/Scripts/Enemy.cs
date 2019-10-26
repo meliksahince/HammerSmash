@@ -53,7 +53,6 @@ public class Enemy : MonoBehaviour
             case "Weapon":
                 Debug.Log("Değmedi");
                 AddScore();
-                FindObjectOfType<AudioManager>().Play("EnemyDeath");
                 Destroy(gameObject);
                 break;
             case "Destroyer":
