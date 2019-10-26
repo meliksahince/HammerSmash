@@ -33,12 +33,12 @@ public class CharacterMovement : MonoBehaviour
         if (direction > 0)
         {
             moved = true;
-            SpriteRenderer.flipX = true;
+            SpriteRenderer.flipX = false;
         }
         else
         { 
             moved = false;
-            SpriteRenderer.flipX = false;
+            SpriteRenderer.flipX = true;
         }
         anim.SetBool("isMoved", moved);
 
@@ -46,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
 
         if (verticalMove >= .5f && onground)
         {
-            rb.AddForce(Vector2.up * 350f); // Buraya bak
+            rb.AddForce(Vector2.up * 450f); // Buraya bak
         } 
 
     }
