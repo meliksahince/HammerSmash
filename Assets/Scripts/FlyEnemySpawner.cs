@@ -34,10 +34,10 @@ public class FlyEnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-
         int randomIndex = Random.Range(0, spawnPoints.Length);
         Transform spawnPoint = spawnPoints[randomIndex];
 
         Instantiate(Alien, spawnPoint.position, spawnPoint.rotation);
+        spawnPoints[1].rotation.SetEulerRotation(0, 180, 0);
     }
 }
