@@ -487,6 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &194953479
 =======
 --- !u!1 &223130276
@@ -721,6 +722,8 @@ MonoBehaviour:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
+=======
+>>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
 --- !u!1 &400670139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,6 +1288,7 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &855647983
 =======
 --- !u!1 &871401487
@@ -1555,6 +1559,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 871401487}
   m_CullTransparentMesh: 0
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
+=======
+>>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
 --- !u!1001 &936693433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2703,6 +2709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 558031238}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1643419353 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8971416504168066576, guid: cef508d1bde779e4b8a7441638d24a92,
@@ -2712,6 +2719,8 @@ Transform:
 =======
   bestScoreText: {fileID: 0}
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
+=======
+>>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
 --- !u!1 &1676848110
 GameObject:
   m_ObjectHideFlags: 0
