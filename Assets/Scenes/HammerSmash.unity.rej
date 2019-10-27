@@ -1,0 +1,13 @@
+diff a/Assets/Scenes/HammerSmash.unity b/Assets/Scenes/HammerSmash.unity	(rejected hunks)
+@@ -486,7 +486,11 @@
+   m_Script: {fileID: 11500000, guid: 1b479e5c1b20da04fb3e67a87f9783af, type: 3}
+   m_Name: 
+   m_EditorClassIdentifier: 
++<<<<<<< HEAD
++--- !u!1 &194953479
++=======
+ --- !u!1 &223130276
++>>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
+ GameObject:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
