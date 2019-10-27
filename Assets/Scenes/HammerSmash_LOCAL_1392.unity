@@ -486,7 +486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b479e5c1b20da04fb3e67a87f9783af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< .merge_file_a07976
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &194953479
@@ -725,8 +724,6 @@ MonoBehaviour:
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
 =======
 >>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
-=======
->>>>>>> .merge_file_a15640
 --- !u!1 &400670139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1287,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< .merge_file_a07976
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &855647983
@@ -1565,8 +1561,6 @@ CanvasRenderer:
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
 =======
 >>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
-=======
->>>>>>> .merge_file_a15640
 --- !u!1001 &936693433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2714,7 +2708,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 558031238}
-<<<<<<< .merge_file_a07976
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1643419353 stripped
@@ -2728,8 +2721,6 @@ Transform:
 >>>>>>> ba90bd3e9cca4be5fe4a08ae70954d3660dc0178
 =======
 >>>>>>> a387b16802a0bdce9874ceda4a93f9bd7a207706
-=======
->>>>>>> .merge_file_a15640
 --- !u!1 &1676848110
 GameObject:
   m_ObjectHideFlags: 0
